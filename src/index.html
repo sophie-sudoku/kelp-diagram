@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Kelp Visualisation</title>
+</head>
+<!-- 
+# UNFCC
+# EU
+# NATO
+# OECD
+# G7
+# UN
+# OSCE
+# COE
+# ILO
+# INTERPOL
+*/
+-->
+<body>
+    <div class="description-container">
+      <h1>Kelp Diagram Visualisation</h1>
+      <p>
+        This visualization supports to detect correlations between alliaces of countries (i.e integovernmental organizations).
+        You can select Datasets in the right column, to see which countries belong to which organization. Go to 188.226.142.57/docs to read more.
+      </p>
+    </div>
+    <div class="dataset-container">
+        <h1>Datasets</h1>
+        <hr class="solid">
+        <label class="container">EU
+            <input type="checkbox" value="EU">
+            <span class="checkmark"></span>
+            <div class="box eu"></div>
+            <div class="info-box" value="EU" id="eu-info">i</div>
+          </label>
+          
+          <label class="container">NATO
+            <input type="checkbox" value="NATO">
+            <span class="checkmark"></span>
+            <div class="box nato"></div>
+            <div class="info-box" value="NATO" id="nato-info">i</div>
+          </label>
+          
+          <label class="container">OECD
+            <input type="checkbox" value="OECD">
+            <span class="checkmark"></span>
+            <div class="box oecd"></div>
+            <div class="info-box" value="OECD" id="oecd-info">i</div>
+          </label>
+          
+          <label class="container">G7
+            <input type="checkbox" value="G7">
+            <span class="checkmark"></span>
+            <div class="box g7"></div>
+            <div class="info-box" value="G7" id="g7-info">i</div>
+          </label>
+
+          <label class="container">UN
+            <input type="checkbox" value="UN">
+            <span class="checkmark"></span>
+            <div class="box un"></div>
+            <div class="info-box" value="UN" id="un-info">i</div>
+          </label>
+
+          <label class="container">OSCE
+            <input type="checkbox" value="OSCE">
+            <span class="checkmark"></span>
+            <div class="box osce"></div>
+            <div class="info-box" value="OSCE" id="osce-info">i</div>
+          </label>
+
+          <label class="container">COE
+            <input type="checkbox" value="COE">
+            <span class="checkmark"></span>
+            <div class="box coe"></div>
+            <div class="info-box" value="COE" id="coe-info">i</div>
+          </label>
+
+          <label class="container">ILO
+            <input type="checkbox" value="ILO">
+            <span class="checkmark"></span>
+            <div class="box ilo"></div>
+            <div class="info-box" value="ILO" id="ilo-info">i</div>
+          </label>
+
+          <label class="container">INTERPOL
+            <input type="checkbox" value="INTERPOL">
+            <span class="checkmark"></span>
+            <div class="box interpol"></div>
+            <div class="info-box" value="INTERPOL" id="interpol-info">i</div>
+          </label>
+
+          <label class="container">Climate Agreement
+            <input type="checkbox" value="uncfcc">
+            <span class="checkmark"></span>
+            <div class="box uncfcc"></div>
+            <div class="info-box" value="uncfcc" id="uncfcc-info">i</div>
+          </label>
+    </div>
+
+    <div class="hide info-container">
+        <h2 class="organization-name"></h2>
+        <div class="list-wrapper">
+          <p>Countries:</p>
+          <ul class="country-list">
+          </ul>
+        </div>
+        <div class="org-info">
+          <p class="org-info-text"></p>
+        </div>
+        <div class="hide-btn">X</div>
+    </div>
+</body>
+
+</html>
