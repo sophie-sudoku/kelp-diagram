@@ -26,7 +26,7 @@ The algorithm is implemented in three main steps:
     - project the texture over a 3D sphere.
 
 
-![Example of how the visualisation looks like](../assets/application-image.png)
+![Example of how the visualisation looks like](screenshot.jpg)
 
 ## Application structure
 
